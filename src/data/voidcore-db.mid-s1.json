@@ -5,7 +5,7 @@
   "expansion": "Midnight",
   "season": "Season 1",
   "seasonNumber": 1,
-  "generatedAt": "2026-04-26T11:00:01.624Z",
+  "generatedAt": "2026-04-26T14:55:03.822Z",
   "sourceLastUpdated": "2026-04-08T04:40:05.682Z",
   "classes": [
     {
@@ -28,7 +28,8 @@
           "role": "tank",
           "mainStat": "str",
           "classId": 6,
-          "className": "Death Knight"
+          "className": "Death Knight",
+          "weaponSubclasses": null
         },
         {
           "id": 251,
@@ -36,7 +37,8 @@
           "role": "dps",
           "mainStat": "str",
           "classId": 6,
-          "className": "Death Knight"
+          "className": "Death Knight",
+          "weaponSubclasses": null
         },
         {
           "id": 252,
@@ -44,7 +46,8 @@
           "role": "dps",
           "mainStat": "str",
           "classId": 6,
-          "className": "Death Knight"
+          "className": "Death Knight",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -56,8 +59,7 @@
         "axe1h",
         "sword1h",
         "warglaive",
-        "fist",
-        "dagger"
+        "fist"
       ],
       "specs": [
         {
@@ -66,7 +68,13 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 12,
-          "className": "Demon Hunter"
+          "className": "Demon Hunter",
+          "weaponSubclasses": [
+            "axe1h",
+            "fist",
+            "sword1h",
+            "warglaive"
+          ]
         },
         {
           "id": 581,
@@ -74,7 +82,13 @@
           "role": "tank",
           "mainStat": "agi",
           "classId": 12,
-          "className": "Demon Hunter"
+          "className": "Demon Hunter",
+          "weaponSubclasses": [
+            "axe1h",
+            "fist",
+            "sword1h",
+            "warglaive"
+          ]
         },
         {
           "id": 1480,
@@ -82,7 +96,13 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 12,
-          "className": "Demon Hunter"
+          "className": "Demon Hunter",
+          "weaponSubclasses": [
+            "axe1h",
+            "fist",
+            "sword1h",
+            "warglaive"
+          ]
         }
       ]
     },
@@ -106,7 +126,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 11,
-          "className": "Druid"
+          "className": "Druid",
+          "weaponSubclasses": null
         },
         {
           "id": 103,
@@ -114,7 +135,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 11,
-          "className": "Druid"
+          "className": "Druid",
+          "weaponSubclasses": null
         },
         {
           "id": 104,
@@ -122,7 +144,8 @@
           "role": "tank",
           "mainStat": "agi",
           "classId": 11,
-          "className": "Druid"
+          "className": "Druid",
+          "weaponSubclasses": null
         },
         {
           "id": 105,
@@ -130,7 +153,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 11,
-          "className": "Druid"
+          "className": "Druid",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -157,7 +181,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 13,
-          "className": "Evoker"
+          "className": "Evoker",
+          "weaponSubclasses": null
         },
         {
           "id": 1468,
@@ -165,7 +190,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 13,
-          "className": "Evoker"
+          "className": "Evoker",
+          "weaponSubclasses": null
         },
         {
           "id": 1473,
@@ -173,7 +199,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 13,
-          "className": "Evoker"
+          "className": "Evoker",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -201,7 +228,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 3,
-          "className": "Hunter"
+          "className": "Hunter",
+          "weaponSubclasses": null
         },
         {
           "id": 254,
@@ -209,7 +237,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 3,
-          "className": "Hunter"
+          "className": "Hunter",
+          "weaponSubclasses": null
         },
         {
           "id": 255,
@@ -217,7 +246,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 3,
-          "className": "Hunter"
+          "className": "Hunter",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -239,7 +269,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 8,
-          "className": "Mage"
+          "className": "Mage",
+          "weaponSubclasses": null
         },
         {
           "id": 63,
@@ -247,7 +278,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 8,
-          "className": "Mage"
+          "className": "Mage",
+          "weaponSubclasses": null
         },
         {
           "id": 64,
@@ -255,7 +287,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 8,
-          "className": "Mage"
+          "className": "Mage",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -279,7 +312,8 @@
           "role": "tank",
           "mainStat": "agi",
           "classId": 10,
-          "className": "Monk"
+          "className": "Monk",
+          "weaponSubclasses": null
         },
         {
           "id": 269,
@@ -287,7 +321,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 10,
-          "className": "Monk"
+          "className": "Monk",
+          "weaponSubclasses": null
         },
         {
           "id": 270,
@@ -295,7 +330,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 10,
-          "className": "Monk"
+          "className": "Monk",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -320,7 +356,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 2,
-          "className": "Paladin"
+          "className": "Paladin",
+          "weaponSubclasses": null
         },
         {
           "id": 66,
@@ -328,7 +365,8 @@
           "role": "tank",
           "mainStat": "str",
           "classId": 2,
-          "className": "Paladin"
+          "className": "Paladin",
+          "weaponSubclasses": null
         },
         {
           "id": 70,
@@ -336,7 +374,8 @@
           "role": "dps",
           "mainStat": "str",
           "classId": 2,
-          "className": "Paladin"
+          "className": "Paladin",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -358,7 +397,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 5,
-          "className": "Priest"
+          "className": "Priest",
+          "weaponSubclasses": null
         },
         {
           "id": 257,
@@ -366,7 +406,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 5,
-          "className": "Priest"
+          "className": "Priest",
+          "weaponSubclasses": null
         },
         {
           "id": 258,
@@ -374,7 +415,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 5,
-          "className": "Priest"
+          "className": "Priest",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -396,7 +438,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 4,
-          "className": "Rogue"
+          "className": "Rogue",
+          "weaponSubclasses": null
         },
         {
           "id": 260,
@@ -404,7 +447,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 4,
-          "className": "Rogue"
+          "className": "Rogue",
+          "weaponSubclasses": null
         },
         {
           "id": 261,
@@ -412,7 +456,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 4,
-          "className": "Rogue"
+          "className": "Rogue",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -438,7 +483,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 7,
-          "className": "Shaman"
+          "className": "Shaman",
+          "weaponSubclasses": null
         },
         {
           "id": 263,
@@ -446,7 +492,8 @@
           "role": "dps",
           "mainStat": "agi",
           "classId": 7,
-          "className": "Shaman"
+          "className": "Shaman",
+          "weaponSubclasses": null
         },
         {
           "id": 264,
@@ -454,7 +501,8 @@
           "role": "healer",
           "mainStat": "int",
           "classId": 7,
-          "className": "Shaman"
+          "className": "Shaman",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -476,7 +524,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 9,
-          "className": "Warlock"
+          "className": "Warlock",
+          "weaponSubclasses": null
         },
         {
           "id": 266,
@@ -484,7 +533,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 9,
-          "className": "Warlock"
+          "className": "Warlock",
+          "weaponSubclasses": null
         },
         {
           "id": 267,
@@ -492,7 +542,8 @@
           "role": "dps",
           "mainStat": "int",
           "classId": 9,
-          "className": "Warlock"
+          "className": "Warlock",
+          "weaponSubclasses": null
         }
       ]
     },
@@ -520,7 +571,8 @@
           "role": "dps",
           "mainStat": "str",
           "classId": 1,
-          "className": "Warrior"
+          "className": "Warrior",
+          "weaponSubclasses": null
         },
         {
           "id": 72,
@@ -528,7 +580,8 @@
           "role": "dps",
           "mainStat": "str",
           "classId": 1,
-          "className": "Warrior"
+          "className": "Warrior",
+          "weaponSubclasses": null
         },
         {
           "id": 73,
@@ -536,7 +589,8 @@
           "role": "tank",
           "mainStat": "str",
           "classId": 1,
-          "className": "Warrior"
+          "className": "Warrior",
+          "weaponSubclasses": null
         }
       ]
     }
@@ -548,7 +602,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 8,
-      "className": "Mage"
+      "className": "Mage",
+      "weaponSubclasses": null
     },
     "63": {
       "id": 63,
@@ -556,7 +611,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 8,
-      "className": "Mage"
+      "className": "Mage",
+      "weaponSubclasses": null
     },
     "64": {
       "id": 64,
@@ -564,7 +620,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 8,
-      "className": "Mage"
+      "className": "Mage",
+      "weaponSubclasses": null
     },
     "65": {
       "id": 65,
@@ -572,7 +629,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 2,
-      "className": "Paladin"
+      "className": "Paladin",
+      "weaponSubclasses": null
     },
     "66": {
       "id": 66,
@@ -580,7 +638,8 @@
       "role": "tank",
       "mainStat": "str",
       "classId": 2,
-      "className": "Paladin"
+      "className": "Paladin",
+      "weaponSubclasses": null
     },
     "70": {
       "id": 70,
@@ -588,7 +647,8 @@
       "role": "dps",
       "mainStat": "str",
       "classId": 2,
-      "className": "Paladin"
+      "className": "Paladin",
+      "weaponSubclasses": null
     },
     "71": {
       "id": 71,
@@ -596,7 +656,8 @@
       "role": "dps",
       "mainStat": "str",
       "classId": 1,
-      "className": "Warrior"
+      "className": "Warrior",
+      "weaponSubclasses": null
     },
     "72": {
       "id": 72,
@@ -604,7 +665,8 @@
       "role": "dps",
       "mainStat": "str",
       "classId": 1,
-      "className": "Warrior"
+      "className": "Warrior",
+      "weaponSubclasses": null
     },
     "73": {
       "id": 73,
@@ -612,7 +674,8 @@
       "role": "tank",
       "mainStat": "str",
       "classId": 1,
-      "className": "Warrior"
+      "className": "Warrior",
+      "weaponSubclasses": null
     },
     "102": {
       "id": 102,
@@ -620,7 +683,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 11,
-      "className": "Druid"
+      "className": "Druid",
+      "weaponSubclasses": null
     },
     "103": {
       "id": 103,
@@ -628,7 +692,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 11,
-      "className": "Druid"
+      "className": "Druid",
+      "weaponSubclasses": null
     },
     "104": {
       "id": 104,
@@ -636,7 +701,8 @@
       "role": "tank",
       "mainStat": "agi",
       "classId": 11,
-      "className": "Druid"
+      "className": "Druid",
+      "weaponSubclasses": null
     },
     "105": {
       "id": 105,
@@ -644,7 +710,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 11,
-      "className": "Druid"
+      "className": "Druid",
+      "weaponSubclasses": null
     },
     "250": {
       "id": 250,
@@ -652,7 +719,8 @@
       "role": "tank",
       "mainStat": "str",
       "classId": 6,
-      "className": "Death Knight"
+      "className": "Death Knight",
+      "weaponSubclasses": null
     },
     "251": {
       "id": 251,
@@ -660,7 +728,8 @@
       "role": "dps",
       "mainStat": "str",
       "classId": 6,
-      "className": "Death Knight"
+      "className": "Death Knight",
+      "weaponSubclasses": null
     },
     "252": {
       "id": 252,
@@ -668,7 +737,8 @@
       "role": "dps",
       "mainStat": "str",
       "classId": 6,
-      "className": "Death Knight"
+      "className": "Death Knight",
+      "weaponSubclasses": null
     },
     "253": {
       "id": 253,
@@ -676,7 +746,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 3,
-      "className": "Hunter"
+      "className": "Hunter",
+      "weaponSubclasses": null
     },
     "254": {
       "id": 254,
@@ -684,7 +755,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 3,
-      "className": "Hunter"
+      "className": "Hunter",
+      "weaponSubclasses": null
     },
     "255": {
       "id": 255,
@@ -692,7 +764,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 3,
-      "className": "Hunter"
+      "className": "Hunter",
+      "weaponSubclasses": null
     },
     "256": {
       "id": 256,
@@ -700,7 +773,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 5,
-      "className": "Priest"
+      "className": "Priest",
+      "weaponSubclasses": null
     },
     "257": {
       "id": 257,
@@ -708,7 +782,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 5,
-      "className": "Priest"
+      "className": "Priest",
+      "weaponSubclasses": null
     },
     "258": {
       "id": 258,
@@ -716,7 +791,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 5,
-      "className": "Priest"
+      "className": "Priest",
+      "weaponSubclasses": null
     },
     "259": {
       "id": 259,
@@ -724,7 +800,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 4,
-      "className": "Rogue"
+      "className": "Rogue",
+      "weaponSubclasses": null
     },
     "260": {
       "id": 260,
@@ -732,7 +809,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 4,
-      "className": "Rogue"
+      "className": "Rogue",
+      "weaponSubclasses": null
     },
     "261": {
       "id": 261,
@@ -740,7 +818,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 4,
-      "className": "Rogue"
+      "className": "Rogue",
+      "weaponSubclasses": null
     },
     "262": {
       "id": 262,
@@ -748,7 +827,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 7,
-      "className": "Shaman"
+      "className": "Shaman",
+      "weaponSubclasses": null
     },
     "263": {
       "id": 263,
@@ -756,7 +836,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 7,
-      "className": "Shaman"
+      "className": "Shaman",
+      "weaponSubclasses": null
     },
     "264": {
       "id": 264,
@@ -764,7 +845,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 7,
-      "className": "Shaman"
+      "className": "Shaman",
+      "weaponSubclasses": null
     },
     "265": {
       "id": 265,
@@ -772,7 +854,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 9,
-      "className": "Warlock"
+      "className": "Warlock",
+      "weaponSubclasses": null
     },
     "266": {
       "id": 266,
@@ -780,7 +863,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 9,
-      "className": "Warlock"
+      "className": "Warlock",
+      "weaponSubclasses": null
     },
     "267": {
       "id": 267,
@@ -788,7 +872,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 9,
-      "className": "Warlock"
+      "className": "Warlock",
+      "weaponSubclasses": null
     },
     "268": {
       "id": 268,
@@ -796,7 +881,8 @@
       "role": "tank",
       "mainStat": "agi",
       "classId": 10,
-      "className": "Monk"
+      "className": "Monk",
+      "weaponSubclasses": null
     },
     "269": {
       "id": 269,
@@ -804,7 +890,8 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 10,
-      "className": "Monk"
+      "className": "Monk",
+      "weaponSubclasses": null
     },
     "270": {
       "id": 270,
@@ -812,7 +899,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 10,
-      "className": "Monk"
+      "className": "Monk",
+      "weaponSubclasses": null
     },
     "577": {
       "id": 577,
@@ -820,7 +908,13 @@
       "role": "dps",
       "mainStat": "agi",
       "classId": 12,
-      "className": "Demon Hunter"
+      "className": "Demon Hunter",
+      "weaponSubclasses": [
+        "axe1h",
+        "fist",
+        "sword1h",
+        "warglaive"
+      ]
     },
     "581": {
       "id": 581,
@@ -828,7 +922,13 @@
       "role": "tank",
       "mainStat": "agi",
       "classId": 12,
-      "className": "Demon Hunter"
+      "className": "Demon Hunter",
+      "weaponSubclasses": [
+        "axe1h",
+        "fist",
+        "sword1h",
+        "warglaive"
+      ]
     },
     "1467": {
       "id": 1467,
@@ -836,7 +936,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 13,
-      "className": "Evoker"
+      "className": "Evoker",
+      "weaponSubclasses": null
     },
     "1468": {
       "id": 1468,
@@ -844,7 +945,8 @@
       "role": "healer",
       "mainStat": "int",
       "classId": 13,
-      "className": "Evoker"
+      "className": "Evoker",
+      "weaponSubclasses": null
     },
     "1473": {
       "id": 1473,
@@ -852,7 +954,8 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 13,
-      "className": "Evoker"
+      "className": "Evoker",
+      "weaponSubclasses": null
     },
     "1480": {
       "id": 1480,
@@ -860,7 +963,13 @@
       "role": "dps",
       "mainStat": "int",
       "classId": 12,
-      "className": "Demon Hunter"
+      "className": "Demon Hunter",
+      "weaponSubclasses": [
+        "axe1h",
+        "fist",
+        "sword1h",
+        "warglaive"
+      ]
     }
   },
   "sources": [

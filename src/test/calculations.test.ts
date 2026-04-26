@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { ClassDefinition, ClassRatings, LootItem, LootSource, SpecDefinition } from "../data/types";
 import { calculateSourceValue, compareCurrentSpecWithBestSpec, getEffectiveLootPool } from "../lib/calculations";
+import { isItemEligibleForSpec } from "../lib/eligibility";
 import {
   createDefaultState,
   resetRatingsForSpec,
@@ -489,6 +490,70 @@ describe("calculation logic", () => {
 
     expect(result.denominator).toBe(1);
     expect(result.exactBisChance).toBe(1);
+  });
+
+  it("explicit spec items still respect class weapon proficiencies", () => {
+    const unusableWeaponForClass: LootItem = {
+      id: 501,
+      name: "Wand of Not For This Class",
+      icon: null,
+      quality: "epic",
+      slot: "weapon_1h",
+      armorType: null,
+      weaponType: "oneHand",
+      weaponSubclass: "wand",
+      primaryStatIds: [5],
+      sourceId: source.id,
+      source: { type: "mythicPlus", name: source.name, encounterId: source.encounterId },
+      specificRoles: null,
+      specs: [1001],
+      catalystEligible: false,
+      catalystTierType: null,
+      catalystSlotKey: null
+    };
+
+    expect(isItemEligibleForSpec(unusableWeaponForClass, specA, classDef)).toBe(false);
+
+    const result = calculateSourceValue({
+      source,
+      spec: specA,
+      classDef,
+      items: [unusableWeaponForClass],
+      ratingsForSpec: {}
+    });
+
+    expect(result.hasValidPool).toBe(false);
+    expect(result.denominator).toBe(0);
+  });
+
+  it("spec-level weapon overrides are respected over class-level proficiencies", () => {
+    const specWithOverride: SpecDefinition = {
+      ...specA,
+      weaponSubclasses: ["sword1h"]
+    };
+
+    const daggerItem: LootItem = {
+      id: 502,
+      name: "Dagger Restricted by Spec Override",
+      icon: null,
+      quality: "epic",
+      slot: "weapon_1h",
+      armorType: null,
+      weaponType: "oneHand",
+      weaponSubclass: "dagger",
+      primaryStatIds: [3],
+      sourceId: source.id,
+      source: { type: "mythicPlus", name: source.name, encounterId: source.encounterId },
+      specificRoles: null,
+      specs: null,
+      catalystEligible: false,
+      catalystTierType: null,
+      catalystSlotKey: null
+    };
+
+    expect(classDef.weaponSubclasses.includes("dagger")).toBe(true);
+    expect(isItemEligibleForSpec(daggerItem, specWithOverride, classDef)).toBe(false);
+    expect(isItemEligibleForSpec(daggerItem, specA, classDef)).toBe(true);
   });
 });
 

@@ -22,7 +22,45 @@ function isPrimaryStatCompatible(primaryStatIds: number[] | null, mainStat: Main
 
 const db = dbRaw as unknown as LootDatabase;
 
+const OFFICIAL_CLASS_WEAPON_SUBCLASSES: Record<string, string[]> = {
+  "Death Knight": ["axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "polearm"],
+  "Demon Hunter": ["warglaive", "fist", "axe1h", "sword1h"],
+  Druid: ["dagger", "fist", "mace1h", "mace2h", "polearm", "staff"],
+  Evoker: ["dagger", "fist", "axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "staff"],
+  Hunter: ["axe1h", "axe2h", "bow", "crossbow", "dagger", "fist", "gun", "polearm", "staff", "sword1h", "sword2h"],
+  Mage: ["wand", "dagger", "sword1h", "staff"],
+  Monk: ["fist", "axe1h", "mace1h", "sword1h", "polearm", "staff"],
+  Paladin: ["axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "polearm"],
+  Priest: ["dagger", "mace1h", "staff", "wand"],
+  Rogue: ["dagger", "fist", "axe1h", "mace1h", "sword1h"],
+  Shaman: ["dagger", "fist", "axe1h", "axe2h", "mace1h", "mace2h", "staff"],
+  Warlock: ["dagger", "sword1h", "staff", "wand"],
+  Warrior: ["dagger", "fist", "axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "polearm", "staff"]
+};
+
 describe("eligibility audit (real DB)", () => {
+  it("matches official class weapon categories", () => {
+    const mismatches: Array<{ className: string; extra: string[]; missing: string[] }> = [];
+
+    for (const classDef of db.classes) {
+      const expected = new Set(OFFICIAL_CLASS_WEAPON_SUBCLASSES[classDef.name] ?? []);
+      const actual = new Set(classDef.weaponSubclasses.filter((entry) => entry !== "shield" && entry !== "offhand"));
+
+      const extra = [...actual].filter((entry) => !expected.has(entry)).sort();
+      const missing = [...expected].filter((entry) => !actual.has(entry)).sort();
+
+      if (extra.length > 0 || missing.length > 0) {
+        mismatches.push({
+          className: classDef.name,
+          extra,
+          missing
+        });
+      }
+    }
+
+    expect(mismatches).toEqual([]);
+  });
+
   it("enforces primary-stat compatibility for all specs", () => {
     const violations: Array<{ className: string; specName: string; specId: number; itemId: number; itemName: string }> = [];
 

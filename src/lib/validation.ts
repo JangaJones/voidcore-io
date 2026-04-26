@@ -128,6 +128,15 @@ export function validateLootDatabase(raw: unknown): ValidationResult<LootDatabas
         errors.push(`class ${String(classDef.id)} has invalid spec entries.`);
         break;
       }
+
+      if (
+        spec.weaponSubclasses !== undefined &&
+        spec.weaponSubclasses !== null &&
+        !isStringArray(spec.weaponSubclasses)
+      ) {
+        errors.push(`spec ${String(spec.id)} weaponSubclasses must be null, undefined, or a string array.`);
+        break;
+      }
     }
   }
 

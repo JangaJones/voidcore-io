@@ -23,7 +23,7 @@ const CLASS_ARMOR = {
 
 const CLASS_WEAPON_SUBCLASSES = {
   "Death Knight": ["axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "polearm"],
-  "Demon Hunter": ["axe1h", "sword1h", "warglaive", "fist", "dagger"],
+  "Demon Hunter": ["axe1h", "sword1h", "warglaive", "fist"],
   Druid: ["mace1h", "mace2h", "polearm", "staff", "fist", "dagger", "offhand"],
   Evoker: ["axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "staff", "fist", "dagger", "offhand"],
   Hunter: ["axe1h", "axe2h", "sword1h", "sword2h", "polearm", "staff", "fist", "dagger", "bow", "gun", "crossbow"],
@@ -35,6 +35,16 @@ const CLASS_WEAPON_SUBCLASSES = {
   Shaman: ["axe1h", "axe2h", "mace1h", "mace2h", "fist", "dagger", "staff", "shield", "offhand"],
   Warlock: ["sword1h", "dagger", "staff", "wand", "offhand"],
   Warrior: ["axe1h", "axe2h", "mace1h", "mace2h", "sword1h", "sword2h", "polearm", "staff", "fist", "dagger", "shield"]
+};
+
+// Optional spec-level weapon overrides.
+// Key = specialization ID, value = allowed weaponSubclass[] for that spec.
+// Use `null` (or omit key) to fall back to class-level proficiencies.
+const SPEC_WEAPON_SUBCLASSES_OVERRIDES = {
+  // Demon Hunter (Havoc / Vengeance / Devourer): official class weapons exclude daggers.
+  577: ["axe1h", "sword1h", "warglaive", "fist"],
+  581: ["axe1h", "sword1h", "warglaive", "fist"],
+  1480: ["axe1h", "sword1h", "warglaive", "fist"]
 };
 
 const PRIMARY_STAT_ID_SET = new Set([3, 4, 5, 71, 72, 73, 74]);
@@ -166,7 +176,10 @@ function buildClassSpecData(specsRaw) {
       role: mapRole(spec?.role?.type),
       mainStat: mapMainStat(spec?.primary_stat_type?.type),
       classId,
-      className
+      className,
+      weaponSubclasses: Array.isArray(SPEC_WEAPON_SUBCLASSES_OVERRIDES[specId])
+        ? [...new Set(SPEC_WEAPON_SUBCLASSES_OVERRIDES[specId])].sort()
+        : null
     });
   }
 

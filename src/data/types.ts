@@ -11,6 +11,7 @@ export interface SpecDefinition {
   mainStat: MainStat | null;
   classId: number;
   className: string;
+  weaponSubclasses?: string[] | null;
 }
 
 export interface ClassDefinition {

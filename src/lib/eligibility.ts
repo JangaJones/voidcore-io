@@ -4,6 +4,14 @@ function hasExplicitSpecRestriction(item: LootItem): boolean {
   return Array.isArray(item.specs) && item.specs.length > 0;
 }
 
+function matchesExplicitSpecRestriction(item: LootItem, spec: SpecDefinition): boolean {
+  if (!hasExplicitSpecRestriction(item)) {
+    return true;
+  }
+
+  return item.specs?.includes(spec.id) ?? false;
+}
+
 function matchesRoleRestriction(item: LootItem, spec: SpecDefinition): boolean {
   if (!item.specificRoles || item.specificRoles.length === 0) {
     return true;
@@ -20,12 +28,13 @@ function matchesArmorRestriction(item: LootItem, classDef: ClassDefinition): boo
   return item.armorType === classDef.armorType;
 }
 
-function matchesWeaponRestriction(item: LootItem, classDef: ClassDefinition): boolean {
+function matchesWeaponRestriction(item: LootItem, spec: SpecDefinition, classDef: ClassDefinition): boolean {
   if (!item.weaponSubclass) {
     return true;
   }
 
-  return classDef.weaponSubclasses.includes(item.weaponSubclass);
+  const effectiveWeaponSubclasses = Array.isArray(spec.weaponSubclasses) ? spec.weaponSubclasses : classDef.weaponSubclasses;
+  return effectiveWeaponSubclasses.includes(item.weaponSubclass);
 }
 
 function matchesPrimaryStatRestriction(item: LootItem, spec: SpecDefinition): boolean {
@@ -51,12 +60,8 @@ function matchesPrimaryStatRestriction(item: LootItem, spec: SpecDefinition): bo
 }
 
 export function isItemEligibleForSpec(item: LootItem, spec: SpecDefinition, classDef: ClassDefinition): boolean {
-  if (hasExplicitSpecRestriction(item)) {
-    if (!(item.specs?.includes(spec.id) ?? false)) {
-      return false;
-    }
-
-    return matchesPrimaryStatRestriction(item, spec);
+  if (!matchesExplicitSpecRestriction(item, spec)) {
+    return false;
   }
 
   if (!matchesRoleRestriction(item, spec)) {
@@ -67,7 +72,7 @@ export function isItemEligibleForSpec(item: LootItem, spec: SpecDefinition, clas
     return false;
   }
 
-  if (!matchesWeaponRestriction(item, classDef)) {
+  if (!matchesWeaponRestriction(item, spec, classDef)) {
     return false;
   }
 
