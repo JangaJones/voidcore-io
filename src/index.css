@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Rajdhani:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Rajdhani", sans-serif;
+  background:
+    radial-gradient(circle at 12% 16%, rgba(102, 208, 255, 0.14), transparent 28%),
+    radial-gradient(circle at 88% 24%, rgba(140, 125, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 55% 85%, rgba(217, 186, 112, 0.12), transparent 24%),
+    linear-gradient(155deg, #05080f 8%, #0a1224 50%, #090d18 100%);
+  color: #d5deef;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.panel-angled {
+  position: relative;
+  border: 1px solid rgba(113, 133, 182, 0.45);
+  background: rgba(13, 20, 36, 0.78);
+  box-shadow: 0 0 0 1px rgba(102, 208, 255, 0.1), 0 22px 55px rgba(7, 11, 20, 0.62);
+  clip-path: polygon(0 10px, 10px 0, calc(100% - 10px) 0, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px));
+}
+
+.panel-angled::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(102, 208, 255, 0.09), transparent 35%, transparent 70%, rgba(140, 125, 255, 0.08));
+}
+
+.control-input {
+  @apply w-full bg-slate-950/70 border border-slate-600/70 px-3 py-2 text-sm text-midnight-silver outline-none transition;
+}
+
+.control-input:focus {
+  @apply border-midnight-cyan ring-1 ring-midnight-cyan/60;
+}
+
+.btn-arcane {
+  @apply px-3 py-2 text-sm font-semibold uppercase tracking-wide border border-midnight-edge bg-slate-900/70 text-midnight-silver transition;
+}
+
+.btn-arcane:hover {
+  @apply border-midnight-cyan text-white;
+}
+
+.btn-arcane:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.badge {
+  @apply inline-flex items-center border border-slate-500/70 bg-slate-900/60 px-2 py-0.5 text-xs uppercase tracking-wide;
+}

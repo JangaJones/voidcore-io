@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-04-25T23-53-30",
+  "region": "eu",
+  "locale": "en_GB",
+  "currentSeasonId": 17,
+  "currentSeasonName": "Mythic+ Dungeons (Midnight Season 1)",
+  "currentPeriodId": 1060,
+  "midnightExpansionId": 516,
+  "activeMythicPlusDungeons": [
+    {
+      "mythicDungeonId": 161,
+      "journalInstanceId": 476,
+      "name": "Skyreach"
+    },
+    {
+      "mythicDungeonId": 239,
+      "journalInstanceId": 945,
+      "name": "Seat of the Triumvirate"
+    },
+    {
+      "mythicDungeonId": 402,
+      "journalInstanceId": 1201,
+      "name": "Algeth'ar Academy"
+    },
+    {
+      "mythicDungeonId": 556,
+      "journalInstanceId": 278,
+      "name": "Pit of Saron"
+    },
+    {
+      "mythicDungeonId": 557,
+      "journalInstanceId": 1299,
+      "name": "Windrunner Spire"
+    },
+    {
+      "mythicDungeonId": 558,
+      "journalInstanceId": 1300,
+      "name": "Magisters' Terrace"
+    },
+    {
+      "mythicDungeonId": 559,
+      "journalInstanceId": 1316,
+      "name": "Nexus-Point Xenas"
+    },
+    {
+      "mythicDungeonId": 560,
+      "journalInstanceId": 1315,
+      "name": "Maisara Caverns"
+    }
+  ],
+  "midnightRaidInstances": [
+    {
+      "journalInstanceId": 1312,
+      "name": "Midnight"
+    },
+    {
+      "journalInstanceId": 1314,
+      "name": "The Dreamrift"
+    },
+    {
+      "journalInstanceId": 1307,
+      "name": "The Voidspire"
+    },
+    {
+      "journalInstanceId": 1308,
+      "name": "March on Quel'Danas"
+    }
+  ],
+  "fetchedInstances": 12,
+  "fetchedEncounters": 42,
+  "discoveredItemIds": 652,
+  "fetchedItems": 652,
+  "outputDir": "/Users/julian/Documents/_DEV/voidcore-io-data/output/raw/2026-04-25T23-53-30",
+  "warnings": []
+}

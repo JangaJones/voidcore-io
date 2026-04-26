@@ -1,0 +1,1123 @@
+{
+  "278": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/278?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 278,
+    "name": "Pit of Saron",
+    "map": {
+      "name": "Pit of Saron",
+      "id": 658
+    },
+    "description": "Agents of the Lich King have captured Alliance forces and put them to work in this frozen quarry. To disrupt this critical source of saronite used for the Scourge's war effort, Lady Jaina Proudmoore and her allies aim to free these captives and put down the leader of this operation, Scourgelord Tyrannus.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/608?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Forgemaster Garfrost",
+        "id": 608
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/609?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Ick and Krick",
+        "id": 609
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/610?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Scourgelord Tyrannus",
+        "id": 610
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/72?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Wrath of the Lich King",
+      "id": 72
+    },
+    "location": {
+      "name": "Icecrown",
+      "id": 210
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": false
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/278?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 278
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 0
+  },
+  "476": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/476?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 476,
+    "name": "Skyreach",
+    "map": {
+      "name": "Skyreach",
+      "id": 1209
+    },
+    "description": "Atop the crowning pinnacle of the Spires of Arak, amidst the clouds, Skyreach stands as the seat of power of the Adherents of Rukhmar. The arakkoa have gathered and harnessed the Apexis technology of their forebears, and now they are ready to unleash the focused power of the sun upon their enemies.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/965?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Ranjit",
+        "id": 965
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/966?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Araknath",
+        "id": 966
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/967?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Rukhran",
+        "id": 967
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/968?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "High Sage Viryx",
+        "id": 968
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/124?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Warlords of Draenor",
+      "id": 124
+    },
+    "location": {
+      "name": "Spires of Arak",
+      "id": 6722
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/476?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 476
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 0
+  },
+  "945": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/945?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 945,
+    "name": "Seat of the Triumvirate",
+    "map": {
+      "name": "Seat of the Triumvirate",
+      "id": 1753
+    },
+    "description": "Argus was governed from the gleaming halls of the Seat of the Triumvirate--until the eredar struck their unholy bargain with Sargeras. Enraged by Velen's defiant exodus, Kil'jaeden decreed that the Seat should be abandoned as a symbol of an irrelevant past... for the Legion had become their future.\r\n\r\nIts once-gleaming halls now fallen into shadow, the Seat radiates a dark power that has drawn those seeking to harness the might of the Void and unleash it upon their enemies.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1979?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Zuraal the Ascended",
+        "id": 1979
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1980?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Saprish",
+        "id": 1980
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1981?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Viceroy Nezhar",
+        "id": 1981
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1982?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "L'ura",
+        "id": 1982
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/395?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Legion",
+      "id": 395
+    },
+    "location": {
+      "name": "Eredath",
+      "id": 8701
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/945?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 945
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 0
+  },
+  "1201": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1201?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1201,
+    "name": "Algeth'ar Academy",
+    "map": {
+      "name": "Algeth'ar Academy",
+      "id": 2526
+    },
+    "description": "Long ago, the great Algeth'ar Academy was a place of higher learning for all dragons. Though it fell dormant with the rest of the Isles, it has reopened and is back under the guidance of Headteacher Doragosa. In a series of exciting, new changes the Academy is currently seeking new students from all walks of life, not just dragons, as well as volunteers to help get it back to the bustling halls of education it once was. Those who walk the Academy grounds are sure to learn something new.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2509?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Vexamus",
+        "id": 2509
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2512?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Overgrown Ancient",
+        "id": 2512
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2495?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Crawth",
+        "id": 2495
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2514?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Echo of Doragosa",
+        "id": 2514
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/503?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Dragonflight",
+      "id": 503
+    },
+    "location": {
+      "name": "Thaldraszus",
+      "id": 13647
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1201?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1201
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 1
+  },
+  "1299": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1299?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1299,
+    "name": "Windrunner Spire",
+    "map": {
+      "name": "Windrunner Spire",
+      "id": 2805
+    },
+    "description": "Once the hallowed home of the Windunner family, Windrunner Spire now mirrors the scarred relationship between Alleria, Sylvanas, and Vereesa. Animosity during a reunion at the home drove suffering and grief into a haunted manifestation that binds the spirits there, unable to find peace.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2655?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Emberdawn",
+        "id": 2655
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2656?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Derelict Duo",
+        "id": 2656
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2657?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Commander Kroluk",
+        "id": 2657
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2658?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "The Restless Heart",
+        "id": 2658
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Eversong Woods",
+      "id": 15968
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1299?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1299
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 7
+  },
+  "1300": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1300?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1300,
+    "name": "Magisters' Terrace",
+    "map": {
+      "name": "Magisters' Terrace",
+      "id": 2811
+    },
+    "description": "Magisters' Terrace is the heart of arcane study for the sin'dorei, including Magister Umbric, long ago. Within its halls lies the Cynosure of Twilight, the key to unlocking the way into the Voidstorm.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2659?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Arcanotron Custos",
+        "id": 2659
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2661?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Seranel Sunlash",
+        "id": 2661
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2660?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Gemellus",
+        "id": 2660
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2662?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Degentrius",
+        "id": 2662
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Isle of Quel'Danas",
+      "id": 16215
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1300?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1300
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 1
+  },
+  "1307": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1307?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1307,
+    "name": "The Voidspire",
+    "map": {
+      "name": "The Voidspire",
+      "id": 2912
+    },
+    "description": "From high above the Voidstorm, Xal'atath has gathered the Devouring Host beneath her dark banner. The towering Voidspire looms like a spear of darkness, a citadel guarded by an army of the void. The forces of the light - led by Alleria Windrunner and the Champions of Azeroth - must rally for one last desperate assault before all is lost.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2733?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Imperator Averzian",
+        "id": 2733
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2734?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Vorasius",
+        "id": 2734
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2736?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Fallen-King Salhadaar",
+        "id": 2736
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2735?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Vaelgor & Ezzorak",
+        "id": 2735
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2737?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Lightblinded Vanguard",
+        "id": 2737
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2738?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Crown of the Cosmos",
+        "id": 2738
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Voidstorm",
+      "id": 15458
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "LFR",
+          "name": "Raid Finder"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 20,
+        "is_tracked": true
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1307?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1307
+    },
+    "minimum_level": 90,
+    "category": {
+      "type": "RAID"
+    },
+    "order_index": 2
+  },
+  "1308": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1308?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1308,
+    "name": "March on Quel'Danas",
+    "map": {
+      "name": "March on Quel'Danas",
+      "id": 2913
+    },
+    "description": "Darkness has eclipsed the Isle of Quel'Danas, clouding the skies above Silvermoon City. With Arator the Redeemer by their side, the Champions of Azeroth must march on the Sunwell before the light of the blood elves is lost forever.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2739?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Belo'ren, Child of Al'ar",
+        "id": 2739
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2740?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Midnight Falls",
+        "id": 2740
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Isle of Quel'Danas",
+      "id": 16342
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "LFR",
+          "name": "Raid Finder"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 20,
+        "is_tracked": true
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1308?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1308
+    },
+    "minimum_level": 90,
+    "category": {
+      "type": "RAID"
+    },
+    "order_index": 3
+  },
+  "1312": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1312,
+    "name": "Midnight",
+    "map": {
+      "name": "Midnight",
+      "id": 2930
+    },
+    "description": "As Xal'atath launches a devastating assault against the Sunwell, the fate of Quel'Thalas hangs by a thread. Great threats have risen from the swirling chaos of the Voidstorm, the ruins of the Amani Empire, and the blooming depths of Harandar. In this hour of reckoning, only the bold will stand against the coming darkness.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2827?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Lu'ashal",
+        "id": 2827
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2829?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Thorm'belan",
+        "id": 2829
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2828?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Predaxas",
+        "id": 2828
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2782?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Cragpine",
+        "id": 2782
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 30,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1312?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1312
+    },
+    "category": {
+      "type": "RAID"
+    },
+    "order_index": 0
+  },
+  "1314": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1314?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1314,
+    "name": "The Dreamrift",
+    "map": {
+      "name": "The Dreamrift",
+      "id": 2939
+    },
+    "description": "The Dreamrift exists deep within the Rift of Aln, where the dreams of Aln'hara took form long ago. Dark manifestations have grown within the rift in Aln'hara's absence, devouring each other in an endless cycle. Even the brave haranir dare not delve too deep, for now something greater and more terrible lurks within the Dreamrift's depths.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2795?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Chimaerus the Undreamt God",
+        "id": 2795
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Harandar",
+      "id": 15355
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "LFR",
+          "name": "Raid Finder"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 30,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 20,
+        "is_tracked": true
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1314?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1314
+    },
+    "minimum_level": 90,
+    "category": {
+      "type": "RAID"
+    },
+    "order_index": 1
+  },
+  "1315": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1315?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1315,
+    "name": "Maisara Caverns",
+    "map": {
+      "name": "Maisara Caverns",
+      "id": 2874
+    },
+    "description": "Beneath the sacred Maisara Hills, Vilebranch trolls sacrifice Witherbark captives to power their necromancy. Their rituals twist stolen souls into fuel for Rak'tul, a monstrous dire troll bound in the depths. If the cavern's magic is left to fester, Zul'Aman will face a terror it cannot contain.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2810?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Muro'jin and Nekraxx",
+        "id": 2810
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2811?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Vordaza",
+        "id": 2811
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2812?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Rak'tul, Vessel of Souls",
+        "id": 2812
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Zul'Aman",
+      "id": 15947
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1315?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1315
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 2
+  },
+  "1316": {
+    "_links": {
+      "self": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-instance/1316?namespace=static-12.0.5_66741-eu"
+      }
+    },
+    "id": 1316,
+    "name": "Nexus-Point Xenas",
+    "map": {
+      "name": "Nexus-Point Xenas",
+      "id": 2915
+    },
+    "description": "A fractured facility teetering on the edge of collapse. Once a hub of innovation, its core now pulses with unstable void and arcane energy. Brave adventurers must navigate its shifting wings, confront voidwalking guardians, and uncover the truth behind its unraveling power.",
+    "encounters": [
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2813?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Chief Corewright Kasreth",
+        "id": 2813
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2814?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Corewarden Nysarra",
+        "id": 2814
+      },
+      {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2815?namespace=static-12.0.5_66741-eu"
+        },
+        "name": "Lothraxion",
+        "id": 2815
+      }
+    ],
+    "expansion": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/journal-expansion/516?namespace=static-12.0.5_66741-eu"
+      },
+      "name": "Midnight",
+      "id": 516
+    },
+    "location": {
+      "name": "Voidstorm",
+      "id": 15458
+    },
+    "modes": [
+      {
+        "mode": {
+          "type": "NORMAL",
+          "name": "Normal"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "HEROIC",
+          "name": "Heroic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC",
+          "name": "Mythic"
+        },
+        "players": 5,
+        "is_tracked": true
+      },
+      {
+        "mode": {
+          "type": "MYTHIC_KEYSTONE",
+          "name": "Mythic+ Dungeons"
+        },
+        "players": 5,
+        "is_tracked": false
+      }
+    ],
+    "media": {
+      "key": {
+        "href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/1316?namespace=static-12.0.5_66741-eu"
+      },
+      "id": 1316
+    },
+    "minimum_level": 1,
+    "category": {
+      "type": "DUNGEON"
+    },
+    "order_index": 4
+  }
+}
